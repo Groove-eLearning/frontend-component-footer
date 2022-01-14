@@ -1,49 +1,5 @@
+$gray-footer: #fcfcfc !default;
+
 .footer {
-  background-color: $black;
-
-  ul {
-    &.navigations {
-      li {
-        a {
-          color: $light;
-  
-          &:hover, &:focus {
-            color: $primary;
-          }
-        }
-      }
-    }
-
-    &.external-links {
-      li {
-        a {
-          img.logo-trade-mark {
-            height: 1.75rem;
-          }
-
-          svg.social-media {
-            path {
-              &.icon-bg {
-                fill: $gray-800;
-              }
-
-              &.icon-content {
-                fill: $white;
-              }
-            }
-          }
-  
-          &:hover, &:focus {
-            svg.social-media {
-              path {
-                &.icon-content {
-                  fill: $primary;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
+  background-color: $gray-footer;
 }
