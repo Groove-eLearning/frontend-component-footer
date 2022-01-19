@@ -83,9 +83,9 @@ var SiteFooter = /*#__PURE__*/function (_React$Component) {
       var config = this.context.config;
       return /*#__PURE__*/React.createElement("footer", {
         role: "contentinfo",
-        className: "footer d-flex border-top py-3 overflow-hidden"
+        className: "footer py-3"
       }, /*#__PURE__*/React.createElement("div", {
-        className: "container-fluid"
+        className: "container-fluid overflow-hidden"
       }, /*#__PURE__*/React.createElement("div", {
         className: "d-block d-md-flex align-items-center flex-wrap justify-content-between m-n3"
       }, /*#__PURE__*/React.createElement("ul", {
