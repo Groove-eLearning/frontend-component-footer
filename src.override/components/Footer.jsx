@@ -55,9 +55,9 @@ class SiteFooter extends React.Component {
     return (
       <footer
         role="contentinfo"
-        className="footer d-flex border-top py-3 overflow-hidden"
+        className="footer py-3"
       >
-        <div className="container-fluid">
+        <div className="container-fluid overflow-hidden">
           <div className="d-block d-md-flex align-items-center flex-wrap justify-content-between m-n3">
             <ul className="navigations d-flex align-items-center flex-wrap justify-content-center justify-content-md-start my-n1 mx-n3 p-3 list-unstyled">
               <li className="py-1 px-3"><Link to="/about">About</Link></li>
